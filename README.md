@@ -3,7 +3,7 @@
 A pick-and-place application with the Franka Panda robot simulated in ROS and Gazebo. 
 
 <p align="center" width="100%">
-    <img src="images/pick_and_place_overview.png" width="600">
+    <img src="pick_and_place/images/pick_and_place_overview.png" width="600">
 </p>
 
 
@@ -15,13 +15,13 @@ This project showcases a pick-and-place application that utilizes:
 * Vision to detect objects based on their color via a Kinect RGB-D sensor
 
 <p align="center" width="100%">
-    <img src="images/pick_and_place.gif" width="600">
+    <img src="pick_and_place/images/pick_and_place.gif" width="600">
 </p>
 
 The state machine graph is depicted below:
 
 <p align="center" width="100%">
-    <img src="images/state_machine.png" width="500">
+    <img src="pick_and_place/images/state_machine.png" width="500">
 </p>
 
 The robot starts in the home position. If objects are detected on the workbench,
